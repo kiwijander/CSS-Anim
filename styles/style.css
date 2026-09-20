@@ -1,0 +1,63 @@
+/* Main */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF3E0;
+  font-family: system-ui, sans-serif;
+  color: #333;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  max-width: 380px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Ballon */
+.balloon {
+  font-size: 3rem;
+  display: inline-block;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+/* Ballon jumping */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-12px); }
+}
+
+/* You're invited */
+h1 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.8rem;
+}
+
+/* Paragraphs */
+p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+/* Be there button */
+.be-there-btn {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.8rem;
+  border: none;
+  border-radius: 999px;
+  background: #FF6F61;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.be-there-btn:hover {
+  background: #aa1409;
+  transform: translateY(-2px);
+}
