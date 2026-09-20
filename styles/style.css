@@ -8,6 +8,7 @@ body {
   background: #FFF3E0;
   font-family: system-ui, sans-serif;
   color: #333;
+  position: relative;
 }
 
 .card {
@@ -60,4 +61,15 @@ p {
 .be-there-btn:hover {
   background: #aa1409;
   transform: translateY(-2px);
+}
+
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #888;
 }
